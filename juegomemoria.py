@@ -50,6 +50,15 @@ def display_taps():
     color('black')
     write(f'Taps: {state["taps"]}', align='center', font=('Arial', 20, 'normal'))  #Crear el contador
 
+def check_game_over():
+    "Funcion que detecta cuando se destapan todos los cuadros y acaba el juego"
+    if all(not hide[count] for count in range(64)): 
+        up()
+        goto(0, 0)
+        color('blue') #Color de las letras 
+        write("Fin del juego", align='center', font=('Arial', 30, 'normal'))  #Mensaje de fin
+
+
 
 def draw():
     "Draw image and tiles."
@@ -75,6 +84,7 @@ def draw():
         write(tiles[mark], font=('Arial', 30, 'normal'))
 
     display_taps()  #LLamar a la funcion de desplegar tablero
+    check_game_over()  #LLamar a la funcion que detecta los cuadros
 
     tracer(True)  # Actualizar la pantalla manualmente
     ontimer(draw, 100)
