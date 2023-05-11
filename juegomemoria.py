@@ -6,6 +6,7 @@ car = path('car.gif')
 tiles = list(range(32)) * 2
 state = {'mark': None}
 hide = [True] * 64
+state = {'mark': None, 'taps': 0}
 
 def square(x, y):
     "Draw white square with black outline at (x, y)."
@@ -38,9 +39,22 @@ def tap(x, y):
         hide[spot] = False
         hide[mark] = False
         state['mark'] = None
+    state['taps'] += 1
+
+    display_taps() 
+
+def display_taps():
+    "Despliega el contador de click arriba del tablero de juego"
+    penup()
+    goto(0, (500 // 2) - 20)  # Ajusta el valor de la altura
+    color('black')
+    write(f'Taps: {state["taps"]}', align='center', font=('Arial', 20, 'normal'))  #Crear el contador
+
 
 def draw():
     "Draw image and tiles."
+    tracer(False)  # Desactivar actualizaciones automáticas de la pantalla
+
     clear()
     goto(0, 0)
     shape(car)
@@ -60,14 +74,18 @@ def draw():
         color('black')
         write(tiles[mark], font=('Arial', 30, 'normal'))
 
-    update()
+    display_taps()  #LLamar a la funcion de desplegar tablero
+
+    tracer(True)  # Actualizar la pantalla manualmente
     ontimer(draw, 100)
 
+
 shuffle(tiles)
-setup(420, 420, 370, 0)
+setup(600, 600, 370, 0)  #Aumentar el tamaño del lienzo
 addshape(car)
 hideturtle()
 tracer(False)
 onscreenclick(tap)
 draw()
+display_taps()
 done()
