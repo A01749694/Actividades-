@@ -16,7 +16,6 @@ def tap(x, y):
         speed.x = 2*(x + 200) / 25  #Multiplicar con un factor para duplicar la velocidad  
         speed.y = 2*(y + 200) / 25  
 
-
 def inside(xy):
     "Comprueba si el vector xy está dentro de la ventana de juego."
     return -200 < xy.x < 200 and -200 < xy.y < 200

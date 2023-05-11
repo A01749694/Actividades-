@@ -140,6 +140,14 @@ def move():
             course.x = plan.x  # Actualiza la dirección x del fantasma
             course.y = plan.y  # Actualiza la dirección y del fantasma
 
+        # Nuevo código para hacer que los fantasmas persigan más al jugador
+        if abs(pacman - point) < 100:  # Cambia el valor 100 para ajustar la distancia de persecución
+            direction = pacman - point
+            direction.x = int(direction.x / abs(direction.x)) if direction.x != 0 else 0
+            direction.y = int(direction.y / abs(direction.y)) if direction.y != 0 else 0
+            course.x = direction.x
+            course.y = direction.y
+
         up()
         goto(point.x + 10, point.y + 10)
         dot(20, '#00FFFF') # Color de los fantasmas '#00FFFF'
@@ -149,6 +157,7 @@ def move():
     for point, course in ghosts:
         if abs(pacman - point) < 20:
             return
+
     # Llama a la función move() cada 100 milisegundos, velocidad de los fantasmas.
     ontimer(move, 20)
 
