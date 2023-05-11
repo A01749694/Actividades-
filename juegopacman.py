@@ -125,6 +125,14 @@ def move():
             course.x = plan.x
             course.y = plan.y
 
+        # Nuevo código para hacer que los fantasmas persigan más al jugador
+        if abs(pacman - point) < 100:  # Cambia el valor 100 para ajustar la distancia de persecución
+            direction = pacman - point
+            direction.x = int(direction.x / abs(direction.x)) if direction.x != 0 else 0
+            direction.y = int(direction.y / abs(direction.y)) if direction.y != 0 else 0
+            course.x = direction.x
+            course.y = direction.y
+
         up()
         goto(point.x + 10, point.y + 10)
         dot(20, 'red')
@@ -135,8 +143,7 @@ def move():
         if abs(pacman - point) < 20:
             return
 
-    ontimer(move, 100)
-
+    ontimer(move, 20)
 def change(x, y):
     "Change pacman aim if valid."
     if valid(pacman + vector(x, y)):
