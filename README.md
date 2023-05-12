@@ -51,6 +51,7 @@ En la siguiente imagen se puede observar la lista de comandos desde la terminal.
 8. Ya puedes comenzar a escribir y ejecutar programas en Python 3.
 
 ## Módulo Pip en Python
+>El módulo Pip es una herramienta de administración de paquetes en Python que permite instalar, actualizar y desinstalar paquetes de >software de terceros que no están incluidos en la biblioteca estándar de Python.
 
 1. Instala el modulo pip de Python, que ayuda a descargar otros módulos
 2. Puedes revisar si ya lo tienes instalado desde la terminal usando python -m pip --version 
