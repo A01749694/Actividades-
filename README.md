@@ -12,9 +12,7 @@ Juego de la vibora: Este juego hace que el usuario controle a una vibora y que r
 
 Juego de Pac-man: Este juego es el clasico juego donde el jugador debe colectar todos los puntos evitando ser atrapado por los fantasmas, en este se nos pidio que modificaramos la forma del tablero, la velocidad de los fantasmas y que estos fuesen mas "inteligentes"
 
-Juego de tiro parabólico: Este juego consiste en disparar a objetivos que se mueven en el ambiente con un proyectil parabólico 
+Juego de tiro parabólico: Este juego consiste en disparar a objetivos que se mueven en el ambiente con un proyectil parabólico, en este programa se nos pidio que modificaramos la velocidad a la que los objetivos se mueven y la velocidad del proyectil, ademas de hacer el juego infinito al hacer que los objetivos reboten al tocar las paredes
 
-
-
-Juego de memoria: 
+Juego de memoria: En este juego el usuario debe destapar una imagen debajo de unos recuadros con numeros en ellos que al formar pares de numeros son destapados, en este codigo se nos pidio una serie de cosas, se debia agregar un contador de clicks, una funcion que detectara cuando todo el memorama ha sido descubierto, que los numeros aparezcan centrados en sus respectivos cuadros y por ultimo el cambiar los numeros por otro elemento que estimule la memoria del usuario 
 
