@@ -19,7 +19,7 @@ Juego de tiro parabólico: Este juego consiste en disparar a objetivos que se mu
 
 Juego de memoria: En este juego el usuario debe destapar una imagen debajo de unos recuadros con números en ellos que al formar pares de números son destapados, en este código se realizó una serie de cosas, se agregó un contador de clicks, una función que detectara cuando todo el memorama ha sido descubierto, los números aparecen centrados en sus respectivos cuadros y por último el cambiar los números por otro elemento que estimule la memoria del usuario, en este caso se cambiaron por palabras.
 
-Guía para instalar los paquetes y herramientas necesarias:
+## Guía para instalar los paquetes y herramientas necesarias:
 
 Para utilizar la terminal:
 Aunque para descargar y utilizar estos juegos no es del todo necesaria la terminal, si le interesa trabajar con repositorios en Github será de utilidad.
@@ -30,8 +30,8 @@ WSL https://docs.microsoft.com/en-us/windows/wsl/install-win10 (Links to an exte
 Cmdr https://cmder.app/Links to an external site.
 Git Bash https://git-scm.com/downloads
 
-Para instalar Python 3:
-
+## Para instalar Python 3
+'''
 1. Descarga el instalador de Python 3 desde el sitio web oficial de Python: https://www.python.org/downloads/
 
 2. Selecciona la versión de Python 3 que deseas descargar. Se recomienda la versión más reciente disponible, a menos que necesites una versión específica para algún propósito.
@@ -45,5 +45,5 @@ Para instalar Python 3:
 7. Después de completar la instalación, abre una terminal o línea de comandos y verifica que Python 3 se haya instalado correctamente. En la línea de comandos, ingresa "python --version" (sin las comillas) y presiona enter. Deberías ver la versión de Python 3 que acabas de instalar.
 
 8. Ya puedes comenzar a escribir y ejecutar programas en Python 3.
+'''
 
-**<span style="color:red">Este texto será rojo</span>**
