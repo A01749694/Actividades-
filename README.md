@@ -46,4 +46,4 @@ Para instalar Python 3:
 
 8. Ya puedes comenzar a escribir y ejecutar programas en Python 3.
 
-<font color="red">Este texto será rojo</font>
+**<span style="color:red">Este texto será rojo</span>**
