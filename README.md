@@ -50,4 +50,12 @@ En la siguiente imagen se puede observar la lista de comandos desde la terminal.
 
 8. Ya puedes comenzar a escribir y ejecutar programas en Python 3.
 
+## Módulo Pip en Python
+
+1. Instala el modulo pip de Python, que ayuda a descargar otros módulos
+2. Puedes revisar si ya lo tienes instalado desde la terminal usando python -m pip --version 
+3. En caso de no estar instalado, sigue los pasos en https://pip.pypa.io/en/stable/installation/
+4. Una vez instalado pip, instala las librerías de Python que se utilizarán según el reto:
+freegames para videojuegos:
+-pip install freegames
 
