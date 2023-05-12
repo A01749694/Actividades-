@@ -9,26 +9,30 @@ Este repositorio contiene 5 juegos a los cuales de manera colaborativa se mejora
 Para este repositorio es necesario contar con la instalación de python 3 y de las librerías de freegames.
 Los juegos fueron los siguientes: 
 
-Juego de dibujo: Este juego permite al usuario en un lienzo dibujar diferentes formas como lo son una línea, un cuadrado, un rectángulo, un triángulo y un círculo dado dos puntos principales, en este se completó las funciones de las últimas tres figuras para que estas pudieran ser dibujadas correctamente por el usuario.
+**Juego de dibujo:** Este juego permite al usuario en un lienzo dibujar diferentes formas como lo son una línea, un cuadrado, un rectángulo, un triángulo y un círculo dado dos puntos principales, en este se completó las funciones de las últimas tres figuras para que estas pudieran ser dibujadas correctamente por el usuario.
 
-Juego de la vibora: Este juego hace que el usuario controle a una vibora y que recolecte comida en el escenario, en este juego se mejoró que la comida se mueva en el escenario mientras el juego esta activo sumado a que tanto la comida como la vibora cambien de color entre 5 colores distintos al azar.
+**Juego de la vibora:** Este juego hace que el usuario controle a una vibora y que recolecte comida en el escenario, en este juego se mejoró que la comida se mueva en el escenario mientras el juego esta activo sumado a que tanto la comida como la vibora cambien de color entre 5 colores distintos al azar.
 
-Juego de Pac-man: Este juego es el clásico juego donde el jugador debe recolectar todos los puntos evitando ser atrapado por los fantasmas, en este se modificó la forma del tablero, la velocidad de los fantasmas y que estos fuesen más "inteligentes".
+**Juego de Pac-man:** Este juego es el clásico juego donde el jugador debe recolectar todos los puntos evitando ser atrapado por los fantasmas, en este se modificó la forma del tablero, la velocidad de los fantasmas y que estos fuesen más "inteligentes".
 
-Juego de tiro parabólico: Este juego consiste en disparar a objetivos que se mueven en el ambiente con un proyectil parabólico, en este programa se modificó la velocidad a la que los objetivos se mueven y la velocidad del proyectil, además de hacer el juego infinito al hacer que los objetivos reboten al tocar las paredes.
+**Juego de tiro parabólico:** Este juego consiste en disparar a objetivos que se mueven en el ambiente con un proyectil parabólico, en este programa se modificó la velocidad a la que los objetivos se mueven y la velocidad del proyectil, además de hacer el juego infinito al hacer que los objetivos reboten al tocar las paredes.
 
-Juego de memoria: En este juego el usuario debe destapar una imagen debajo de unos recuadros con números en ellos que al formar pares de números son destapados, en este código se realizó una serie de cosas, se agregó un contador de clicks, una función que detectara cuando todo el memorama ha sido descubierto, los números aparecen centrados en sus respectivos cuadros y por último el cambiar los números por otro elemento que estimule la memoria del usuario, en este caso se cambiaron por palabras.
+**Juego de memoria:** En este juego el usuario debe destapar una imagen debajo de unos recuadros con números en ellos que al formar pares de números son destapados, en este código se realizó una serie de cosas, se agregó un contador de clicks, una función que detectara cuando todo el memorama ha sido descubierto, los números aparecen centrados en sus respectivos cuadros y por último el cambiar los números por otro elemento que estimule la memoria del usuario, en este caso se cambiaron por palabras.
 
 ## Guía para instalar los paquetes y herramientas necesarias:
 
-Para utilizar la terminal:
-Aunque para descargar y utilizar estos juegos no es del todo necesaria la terminal, si le interesa trabajar con repositorios en Github será de utilidad.
+>Para utilizar la terminal:
+>Aunque para descargar y utilizar estos juegos no es del todo necesaria la terminal, si le interesa trabajar con repositorios en Github será >de utilidad.
 
--Para los usuarios de MacOS, Linux u otros sistemas de tipo UNIX, deben identificar cómo abrir una terminal, en Mac usualmente viene en las aplicaciones con el nombre de terminal.
--Para usuarios de Windows podrán utilizar PowershellLinks to an external site.. También es recomendable instalar uno de los siguientes emuladores de terminal UNIX
+-Para los usuarios de **MacOS**, **Linux** u otros sistemas de **tipo UNIX**, deben identificar cómo abrir una terminal, en Mac usualmente viene en las aplicaciones con el nombre de terminal.
+-Para usuarios de **Windows** podrán utilizar PowershellLinks to an external site.. También es recomendable instalar uno de los siguientes emuladores de terminal UNIX
 WSL https://docs.microsoft.com/en-us/windows/wsl/install-win10 (Links to an external site.)
 Cmdr https://cmder.app/Links to an external site.
 Git Bash https://git-scm.com/downloads
+
+En la siguiente imagen se puede observar la lista de comandos desde la terminal.
+![Comandos terminal](https://github.com/A01749694/Actividades-/assets/122414903/742bd751-ed60-4c6c-8739-52a98a957d48)
+
 
 ## Para instalar Python 3
 
