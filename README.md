@@ -1,5 +1,5 @@
 # Actividades-
-Juegos en Python con Turtle y freegames
+# Juegos en Python con Turtle y freegames
 
 >Equipo: 
 >Sebastian Antonio Almanza A01749694.  
