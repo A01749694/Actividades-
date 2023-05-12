@@ -2,18 +2,18 @@ from turtle import *
 from freegames import vector
 
 def line(start, end):
-    "Draw line from start to end."
+    "Funcion que dibuja una linea recta"
     up()
-    goto(start.x, start.y)
+    goto(start.x, start.y)  #Punto de inicio
     down()
-    goto(end.x, end.y)
+    goto(end.x, end.y)  #Punto final 
 
 def square(start, end):
-    "Draw square from start to end."
+    "Funcion que dibuja un cuadrado en base a dos puntos"
     up()
-    goto(start.x, start.y)
+    goto(start.x, start.y)  #Puntos iniciales
     down()
-    begin_fill()
+    begin_fill()  #Rellenar figura
 
     for count in range(4):
         forward(end.x - start.x)
@@ -22,19 +22,19 @@ def square(start, end):
     end_fill()
 
 def circulo(start, end):
-    "Draw circle from start to end."
+    "Funcion que dibuja un circulo dado dos puntos"
     up()
     radius = abs(start - end)
-    goto(start.x, start.y - radius)
+    goto(start.x, start.y - radius)  #Calculo de radio en base a ambos puntos
     down()
     circle(radius)
 
 def rectangle(start, end):
-    "Draw rectangle from start to end."
+    "Funcion que dibuja un recangulo dado dos puntos"
     up()
-    goto(start.x, start.y)
+    goto(start.x, start.y)  #Puntos iniciales 
     down()
-    begin_fill()
+    begin_fill()  #Rellenar figura 
     for count in range(2):
         forward(end.x - start.x)
         left(90)
@@ -43,7 +43,7 @@ def rectangle(start, end):
     end_fill()
 
 def triangle(start, end):
-    "Draw triangle from start to end."
+    "Funcion que dibuja un triangulo dado dos puntos "
     up()
     goto(start.x, start.y)
     down()
@@ -54,7 +54,7 @@ def triangle(start, end):
     end_fill()
 
 def tap(x, y):
-    "Store starting point or draw shape."
+    "Funcion que almacena los puntos elegidos"
     start = state['start']
 
     if start is None:
@@ -66,7 +66,7 @@ def tap(x, y):
         state['start'] = None
 
 def store(key, value):
-    "Store value in state at key."
+    "Funcion que almacena la tecla que define la figura a dibujar"
     state[key] = value
 
 state = {'start': None, 'shape': line}
