@@ -8,17 +8,11 @@ Los juegos fueron los siguientes:
 
 Juego de dibujo: Este juego permite al usuario en un lienzo dibujar diferentes formas como lo son una linea, un cuadrado, un rectangulo, un triangulo y un circulo dado dos puntos principales, en este se nos pidio completar las funciones de las ultimas tres figuras para que estas pudieran ser dibujadas correctamente por el usuario.
 
-Juego de la vibora: Este juego es 
+Juego de la vibora: Este juego hace que el usuario controle a una vibora y que recolecte comida en el escenario, en este juego se nos pidio mejorar que la comida se mueva en el escenario mientras el juego esta activo sumado a que tanto la comida como la vibora cambien de color entre 5 colores distintos al azar
 
+Juego de Pac-man: Este juego es el clasico juego donde el jugador debe colectar todos los puntos evitando ser atrapado por los fantasmas, en este se nos pidio que modificaramos la forma del tablero, la velocidad de los fantasmas y que estos fuesen mas "inteligentes"
 
-
-
-Juego de Pac-man:
-
-
-
-
-Juego de tiro parabólico:
+Juego de tiro parabólico: Este juego consiste en disparar a objetivos que se mueven en el ambiente con un proyectil parabólico 
 
 
 
