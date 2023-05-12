@@ -1,9 +1,9 @@
 # Actividades-
 Juegos en Python con Turtle y freegames
 
-Equipo: 
-Sebastian Antonio Almanza A01749694.  
-Michelle Rergis Novelo A01798576  
+>Equipo: 
+>Sebastian Antonio Almanza A01749694.  
+>Michelle Rergis Novelo A01798576  
 
 Este repositorio contiene 5 juegos a los cuales de manera colaborativa se mejoraron/arreglaron, agregando nuevas funciones que realizarán nuevas acciones dentro de ellos o para mejorar las ya existentes, esto con el fin de poner en práctica conocimientos de programación en Python así como el uso de la plataforma Github para aplicar el control de manejo de versiones al trabajo colaborativo. 
 Para este repositorio es necesario contar con la instalación de python 3 y de las librerías de freegames.
@@ -31,7 +31,7 @@ Cmdr https://cmder.app/Links to an external site.
 Git Bash https://git-scm.com/downloads
 
 ## Para instalar Python 3
-'''
+
 1. Descarga el instalador de Python 3 desde el sitio web oficial de Python: https://www.python.org/downloads/
 
 2. Selecciona la versión de Python 3 que deseas descargar. Se recomienda la versión más reciente disponible, a menos que necesites una versión específica para algún propósito.
@@ -45,5 +45,5 @@ Git Bash https://git-scm.com/downloads
 7. Después de completar la instalación, abre una terminal o línea de comandos y verifica que Python 3 se haya instalado correctamente. En la línea de comandos, ingresa "python --version" (sin las comillas) y presiona enter. Deberías ver la versión de Python 3 que acabas de instalar.
 
 8. Ya puedes comenzar a escribir y ejecutar programas en Python 3.
-'''
+
 
